@@ -1,0 +1,1154 @@
+{
+  "hot_2023": {
+    "period": {
+      "start": "2023-05-01",
+      "end": "2023-05-31",
+      "season": "Hot (May)",
+      "year": 2023
+    },
+    "scene_count": 2,
+    "scenes": [
+      {
+        "index": 1,
+        "scene_id": "LC08_L2SP_144045_20230527_02_T1",
+        "datetime": "2023-05-27 05:07:47",
+        "date": "2023-05-27",
+        "platform": "landsat-8",
+        "cloud_cover": 0.37,
+        "path": "144",
+        "row": "045",
+        "processing_level": "L2",
+        "bands": {
+          "coastal": {
+            "band_number": "B1",
+            "resolution": 30,
+            "use": "Atmospheric correction",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/045/LC08_L2SP_144045_20230527_20230603_02_T1/LC08_L2SP_144045_20230527_20230603_02_T1_SR_B1.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "blue": {
+            "band_number": "B2",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/045/LC08_L2SP_144045_20230527_20230603_02_T1/LC08_L2SP_144045_20230527_20230603_02_T1_SR_B2.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "green": {
+            "band_number": "B3",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/045/LC08_L2SP_144045_20230527_20230603_02_T1/LC08_L2SP_144045_20230527_20230603_02_T1_SR_B3.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "red": {
+            "band_number": "B4",
+            "resolution": 30,
+            "use": "RGB, NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/045/LC08_L2SP_144045_20230527_20230603_02_T1/LC08_L2SP_144045_20230527_20230603_02_T1_SR_B4.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "nir08": {
+            "band_number": "B5",
+            "resolution": 30,
+            "use": "NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/045/LC08_L2SP_144045_20230527_20230603_02_T1/LC08_L2SP_144045_20230527_20230603_02_T1_SR_B5.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir16": {
+            "band_number": "B6",
+            "resolution": 30,
+            "use": "LULC, moisture",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/045/LC08_L2SP_144045_20230527_20230603_02_T1/LC08_L2SP_144045_20230527_20230603_02_T1_SR_B6.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir22": {
+            "band_number": "B7",
+            "resolution": 30,
+            "use": "LULC, geology",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/045/LC08_L2SP_144045_20230527_20230603_02_T1/LC08_L2SP_144045_20230527_20230603_02_T1_SR_B7.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir11": {
+            "band_number": "B10",
+            "resolution": 100,
+            "use": "LST, UHI (Primary)",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/045/LC08_L2SP_144045_20230527_20230603_02_T1/LC08_L2SP_144045_20230527_20230603_02_T1_ST_B10.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir12": {
+            "band_number": "B11",
+            "resolution": 100,
+            "use": "LST, UHI (L8 only)",
+            "url": null,
+            "available": false
+          },
+          "qa_pixel": {
+            "band_number": "QA",
+            "resolution": 30,
+            "use": "Quality mask, cloud detection",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/045/LC08_L2SP_144045_20230527_20230603_02_T1/LC08_L2SP_144045_20230527_20230603_02_T1_QA_PIXEL.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          }
+        }
+      },
+      {
+        "index": 2,
+        "scene_id": "LC08_L2SP_144046_20230527_02_T1",
+        "datetime": "2023-05-27 05:08:11",
+        "date": "2023-05-27",
+        "platform": "landsat-8",
+        "cloud_cover": 0.02,
+        "path": "144",
+        "row": "046",
+        "processing_level": "L2",
+        "bands": {
+          "coastal": {
+            "band_number": "B1",
+            "resolution": 30,
+            "use": "Atmospheric correction",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_SR_B1.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "blue": {
+            "band_number": "B2",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_SR_B2.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "green": {
+            "band_number": "B3",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_SR_B3.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "red": {
+            "band_number": "B4",
+            "resolution": 30,
+            "use": "RGB, NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_SR_B4.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "nir08": {
+            "band_number": "B5",
+            "resolution": 30,
+            "use": "NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_SR_B5.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir16": {
+            "band_number": "B6",
+            "resolution": 30,
+            "use": "LULC, moisture",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_SR_B6.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir22": {
+            "band_number": "B7",
+            "resolution": 30,
+            "use": "LULC, geology",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_SR_B7.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir11": {
+            "band_number": "B10",
+            "resolution": 100,
+            "use": "LST, UHI (Primary)",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_ST_B10.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir12": {
+            "band_number": "B11",
+            "resolution": 100,
+            "use": "LST, UHI (L8 only)",
+            "url": null,
+            "available": false
+          },
+          "qa_pixel": {
+            "band_number": "QA",
+            "resolution": 30,
+            "use": "Quality mask, cloud detection",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_QA_PIXEL.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          }
+        }
+      }
+    ],
+    "best_scene": {
+      "index": 2,
+      "scene_id": "LC08_L2SP_144046_20230527_02_T1",
+      "datetime": "2023-05-27 05:08:11",
+      "date": "2023-05-27",
+      "platform": "landsat-8",
+      "cloud_cover": 0.02,
+      "path": "144",
+      "row": "046",
+      "processing_level": "L2",
+      "bands": {
+        "coastal": {
+          "band_number": "B1",
+          "resolution": 30,
+          "use": "Atmospheric correction",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_SR_B1.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "blue": {
+          "band_number": "B2",
+          "resolution": 30,
+          "use": "RGB composite",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_SR_B2.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "green": {
+          "band_number": "B3",
+          "resolution": 30,
+          "use": "RGB composite",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_SR_B3.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "red": {
+          "band_number": "B4",
+          "resolution": 30,
+          "use": "RGB, NDVI, LULC",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_SR_B4.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "nir08": {
+          "band_number": "B5",
+          "resolution": 30,
+          "use": "NDVI, LULC",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_SR_B5.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "swir16": {
+          "band_number": "B6",
+          "resolution": 30,
+          "use": "LULC, moisture",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_SR_B6.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "swir22": {
+          "band_number": "B7",
+          "resolution": 30,
+          "use": "LULC, geology",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_SR_B7.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "lwir11": {
+          "band_number": "B10",
+          "resolution": 100,
+          "use": "LST, UHI (Primary)",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_ST_B10.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "lwir12": {
+          "band_number": "B11",
+          "resolution": 100,
+          "use": "LST, UHI (L8 only)",
+          "url": null,
+          "available": false
+        },
+        "qa_pixel": {
+          "band_number": "QA",
+          "resolution": 30,
+          "use": "Quality mask, cloud detection",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2023/144/046/LC08_L2SP_144046_20230527_20230603_02_T1/LC08_L2SP_144046_20230527_20230603_02_T1_QA_PIXEL.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        }
+      }
+    },
+    "complete_coverage": {
+      "available": true,
+      "date": "2023-05-27",
+      "avg_cloud_cover": 0.195,
+      "row_045_scene": "LC08_L2SP_144045_20230527_02_T1",
+      "row_046_scene": "LC08_L2SP_144046_20230527_02_T1",
+      "coverage_note": "Complete Nagpur coverage with both rows from same date"
+    },
+    "nagpur_coverage": {
+      "valid": true,
+      "message": "Complete coverage with both rows from 2023-05-27",
+      "valid_scenes": [
+        {
+          "id": "LC08_L2SP_144045_20230527_02_T1",
+          "path": "144",
+          "row": "045",
+          "cloud_cover": 0.37,
+          "coverage": "Western part of Nagpur region"
+        },
+        {
+          "id": "LC08_L2SP_144046_20230527_02_T1",
+          "path": "144",
+          "row": "046",
+          "cloud_cover": 0.02,
+          "coverage": "Central and eastern Nagpur (primary coverage)"
+        }
+      ]
+    }
+  },
+  "hot_2024": {
+    "period": {
+      "start": "2024-05-01",
+      "end": "2024-05-31",
+      "season": "Hot (May)",
+      "year": 2024
+    },
+    "scene_count": 2,
+    "scenes": [
+      {
+        "index": 1,
+        "scene_id": "LC09_L2SP_144045_20240505_02_T1",
+        "datetime": "2024-05-05 05:08:05",
+        "date": "2024-05-05",
+        "platform": "landsat-9",
+        "cloud_cover": 0.78,
+        "path": "144",
+        "row": "045",
+        "processing_level": "L2",
+        "bands": {
+          "coastal": {
+            "band_number": "B1",
+            "resolution": 30,
+            "use": "Atmospheric correction",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240505_20240506_02_T1/LC09_L2SP_144045_20240505_20240506_02_T1_SR_B1.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "blue": {
+            "band_number": "B2",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240505_20240506_02_T1/LC09_L2SP_144045_20240505_20240506_02_T1_SR_B2.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "green": {
+            "band_number": "B3",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240505_20240506_02_T1/LC09_L2SP_144045_20240505_20240506_02_T1_SR_B3.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "red": {
+            "band_number": "B4",
+            "resolution": 30,
+            "use": "RGB, NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240505_20240506_02_T1/LC09_L2SP_144045_20240505_20240506_02_T1_SR_B4.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "nir08": {
+            "band_number": "B5",
+            "resolution": 30,
+            "use": "NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240505_20240506_02_T1/LC09_L2SP_144045_20240505_20240506_02_T1_SR_B5.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir16": {
+            "band_number": "B6",
+            "resolution": 30,
+            "use": "LULC, moisture",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240505_20240506_02_T1/LC09_L2SP_144045_20240505_20240506_02_T1_SR_B6.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir22": {
+            "band_number": "B7",
+            "resolution": 30,
+            "use": "LULC, geology",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240505_20240506_02_T1/LC09_L2SP_144045_20240505_20240506_02_T1_SR_B7.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir11": {
+            "band_number": "B10",
+            "resolution": 100,
+            "use": "LST, UHI (Primary)",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240505_20240506_02_T1/LC09_L2SP_144045_20240505_20240506_02_T1_ST_B10.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir12": {
+            "band_number": "B11",
+            "resolution": 100,
+            "use": "LST, UHI (L8 only)",
+            "url": null,
+            "available": false
+          },
+          "qa_pixel": {
+            "band_number": "QA",
+            "resolution": 30,
+            "use": "Quality mask, cloud detection",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240505_20240506_02_T1/LC09_L2SP_144045_20240505_20240506_02_T1_QA_PIXEL.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          }
+        }
+      },
+      {
+        "index": 2,
+        "scene_id": "LC09_L2SP_144046_20240505_02_T1",
+        "datetime": "2024-05-05 05:08:29",
+        "date": "2024-05-05",
+        "platform": "landsat-9",
+        "cloud_cover": 0.44,
+        "path": "144",
+        "row": "046",
+        "processing_level": "L2",
+        "bands": {
+          "coastal": {
+            "band_number": "B1",
+            "resolution": 30,
+            "use": "Atmospheric correction",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_SR_B1.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "blue": {
+            "band_number": "B2",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_SR_B2.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "green": {
+            "band_number": "B3",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_SR_B3.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "red": {
+            "band_number": "B4",
+            "resolution": 30,
+            "use": "RGB, NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_SR_B4.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "nir08": {
+            "band_number": "B5",
+            "resolution": 30,
+            "use": "NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_SR_B5.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir16": {
+            "band_number": "B6",
+            "resolution": 30,
+            "use": "LULC, moisture",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_SR_B6.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir22": {
+            "band_number": "B7",
+            "resolution": 30,
+            "use": "LULC, geology",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_SR_B7.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir11": {
+            "band_number": "B10",
+            "resolution": 100,
+            "use": "LST, UHI (Primary)",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_ST_B10.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir12": {
+            "band_number": "B11",
+            "resolution": 100,
+            "use": "LST, UHI (L8 only)",
+            "url": null,
+            "available": false
+          },
+          "qa_pixel": {
+            "band_number": "QA",
+            "resolution": 30,
+            "use": "Quality mask, cloud detection",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_QA_PIXEL.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          }
+        }
+      }
+    ],
+    "best_scene": {
+      "index": 2,
+      "scene_id": "LC09_L2SP_144046_20240505_02_T1",
+      "datetime": "2024-05-05 05:08:29",
+      "date": "2024-05-05",
+      "platform": "landsat-9",
+      "cloud_cover": 0.44,
+      "path": "144",
+      "row": "046",
+      "processing_level": "L2",
+      "bands": {
+        "coastal": {
+          "band_number": "B1",
+          "resolution": 30,
+          "use": "Atmospheric correction",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_SR_B1.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "blue": {
+          "band_number": "B2",
+          "resolution": 30,
+          "use": "RGB composite",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_SR_B2.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "green": {
+          "band_number": "B3",
+          "resolution": 30,
+          "use": "RGB composite",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_SR_B3.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "red": {
+          "band_number": "B4",
+          "resolution": 30,
+          "use": "RGB, NDVI, LULC",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_SR_B4.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "nir08": {
+          "band_number": "B5",
+          "resolution": 30,
+          "use": "NDVI, LULC",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_SR_B5.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "swir16": {
+          "band_number": "B6",
+          "resolution": 30,
+          "use": "LULC, moisture",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_SR_B6.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "swir22": {
+          "band_number": "B7",
+          "resolution": 30,
+          "use": "LULC, geology",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_SR_B7.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "lwir11": {
+          "band_number": "B10",
+          "resolution": 100,
+          "use": "LST, UHI (Primary)",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_ST_B10.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "lwir12": {
+          "band_number": "B11",
+          "resolution": 100,
+          "use": "LST, UHI (L8 only)",
+          "url": null,
+          "available": false
+        },
+        "qa_pixel": {
+          "band_number": "QA",
+          "resolution": 30,
+          "use": "Quality mask, cloud detection",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240505_20240506_02_T1/LC09_L2SP_144046_20240505_20240506_02_T1_QA_PIXEL.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        }
+      }
+    },
+    "complete_coverage": {
+      "available": true,
+      "date": "2024-05-05",
+      "avg_cloud_cover": 0.61,
+      "row_045_scene": "LC09_L2SP_144045_20240505_02_T1",
+      "row_046_scene": "LC09_L2SP_144046_20240505_02_T1",
+      "coverage_note": "Complete Nagpur coverage with both rows from same date"
+    },
+    "nagpur_coverage": {
+      "valid": true,
+      "message": "Complete coverage with both rows from 2024-05-05",
+      "valid_scenes": [
+        {
+          "id": "LC09_L2SP_144045_20240505_02_T1",
+          "path": "144",
+          "row": "045",
+          "cloud_cover": 0.78,
+          "coverage": "Western part of Nagpur region"
+        },
+        {
+          "id": "LC09_L2SP_144046_20240505_02_T1",
+          "path": "144",
+          "row": "046",
+          "cloud_cover": 0.44,
+          "coverage": "Central and eastern Nagpur (primary coverage)"
+        }
+      ]
+    }
+  },
+  "cold_2023": {
+    "period": {
+      "start": "2023-12-01",
+      "end": "2024-01-15",
+      "season": "Cold (Dec-Jan)",
+      "year": 2023
+    },
+    "scene_count": 2,
+    "scenes": [
+      {
+        "index": 1,
+        "scene_id": "LC09_L2SP_144045_20240114_02_T1",
+        "datetime": "2024-01-14 05:08:45",
+        "date": "2024-01-14",
+        "platform": "landsat-9",
+        "cloud_cover": 0.53,
+        "path": "144",
+        "row": "045",
+        "processing_level": "L2",
+        "bands": {
+          "coastal": {
+            "band_number": "B1",
+            "resolution": 30,
+            "use": "Atmospheric correction",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240114_20240115_02_T1/LC09_L2SP_144045_20240114_20240115_02_T1_SR_B1.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "blue": {
+            "band_number": "B2",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240114_20240115_02_T1/LC09_L2SP_144045_20240114_20240115_02_T1_SR_B2.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "green": {
+            "band_number": "B3",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240114_20240115_02_T1/LC09_L2SP_144045_20240114_20240115_02_T1_SR_B3.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "red": {
+            "band_number": "B4",
+            "resolution": 30,
+            "use": "RGB, NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240114_20240115_02_T1/LC09_L2SP_144045_20240114_20240115_02_T1_SR_B4.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "nir08": {
+            "band_number": "B5",
+            "resolution": 30,
+            "use": "NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240114_20240115_02_T1/LC09_L2SP_144045_20240114_20240115_02_T1_SR_B5.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir16": {
+            "band_number": "B6",
+            "resolution": 30,
+            "use": "LULC, moisture",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240114_20240115_02_T1/LC09_L2SP_144045_20240114_20240115_02_T1_SR_B6.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir22": {
+            "band_number": "B7",
+            "resolution": 30,
+            "use": "LULC, geology",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240114_20240115_02_T1/LC09_L2SP_144045_20240114_20240115_02_T1_SR_B7.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir11": {
+            "band_number": "B10",
+            "resolution": 100,
+            "use": "LST, UHI (Primary)",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240114_20240115_02_T1/LC09_L2SP_144045_20240114_20240115_02_T1_ST_B10.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir12": {
+            "band_number": "B11",
+            "resolution": 100,
+            "use": "LST, UHI (L8 only)",
+            "url": null,
+            "available": false
+          },
+          "qa_pixel": {
+            "band_number": "QA",
+            "resolution": 30,
+            "use": "Quality mask, cloud detection",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/045/LC09_L2SP_144045_20240114_20240115_02_T1/LC09_L2SP_144045_20240114_20240115_02_T1_QA_PIXEL.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          }
+        }
+      },
+      {
+        "index": 2,
+        "scene_id": "LC09_L2SP_144046_20240114_02_T1",
+        "datetime": "2024-01-14 05:09:09",
+        "date": "2024-01-14",
+        "platform": "landsat-9",
+        "cloud_cover": 0.05,
+        "path": "144",
+        "row": "046",
+        "processing_level": "L2",
+        "bands": {
+          "coastal": {
+            "band_number": "B1",
+            "resolution": 30,
+            "use": "Atmospheric correction",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_SR_B1.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "blue": {
+            "band_number": "B2",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_SR_B2.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "green": {
+            "band_number": "B3",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_SR_B3.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "red": {
+            "band_number": "B4",
+            "resolution": 30,
+            "use": "RGB, NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_SR_B4.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "nir08": {
+            "band_number": "B5",
+            "resolution": 30,
+            "use": "NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_SR_B5.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir16": {
+            "band_number": "B6",
+            "resolution": 30,
+            "use": "LULC, moisture",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_SR_B6.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir22": {
+            "band_number": "B7",
+            "resolution": 30,
+            "use": "LULC, geology",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_SR_B7.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir11": {
+            "band_number": "B10",
+            "resolution": 100,
+            "use": "LST, UHI (Primary)",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_ST_B10.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir12": {
+            "band_number": "B11",
+            "resolution": 100,
+            "use": "LST, UHI (L8 only)",
+            "url": null,
+            "available": false
+          },
+          "qa_pixel": {
+            "band_number": "QA",
+            "resolution": 30,
+            "use": "Quality mask, cloud detection",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_QA_PIXEL.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          }
+        }
+      }
+    ],
+    "best_scene": {
+      "index": 2,
+      "scene_id": "LC09_L2SP_144046_20240114_02_T1",
+      "datetime": "2024-01-14 05:09:09",
+      "date": "2024-01-14",
+      "platform": "landsat-9",
+      "cloud_cover": 0.05,
+      "path": "144",
+      "row": "046",
+      "processing_level": "L2",
+      "bands": {
+        "coastal": {
+          "band_number": "B1",
+          "resolution": 30,
+          "use": "Atmospheric correction",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_SR_B1.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "blue": {
+          "band_number": "B2",
+          "resolution": 30,
+          "use": "RGB composite",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_SR_B2.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "green": {
+          "band_number": "B3",
+          "resolution": 30,
+          "use": "RGB composite",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_SR_B3.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "red": {
+          "band_number": "B4",
+          "resolution": 30,
+          "use": "RGB, NDVI, LULC",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_SR_B4.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "nir08": {
+          "band_number": "B5",
+          "resolution": 30,
+          "use": "NDVI, LULC",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_SR_B5.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "swir16": {
+          "band_number": "B6",
+          "resolution": 30,
+          "use": "LULC, moisture",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_SR_B6.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "swir22": {
+          "band_number": "B7",
+          "resolution": 30,
+          "use": "LULC, geology",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_SR_B7.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "lwir11": {
+          "band_number": "B10",
+          "resolution": 100,
+          "use": "LST, UHI (Primary)",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_ST_B10.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "lwir12": {
+          "band_number": "B11",
+          "resolution": 100,
+          "use": "LST, UHI (L8 only)",
+          "url": null,
+          "available": false
+        },
+        "qa_pixel": {
+          "band_number": "QA",
+          "resolution": 30,
+          "use": "Quality mask, cloud detection",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2024/144/046/LC09_L2SP_144046_20240114_20240115_02_T1/LC09_L2SP_144046_20240114_20240115_02_T1_QA_PIXEL.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        }
+      }
+    },
+    "complete_coverage": {
+      "available": true,
+      "date": "2024-01-14",
+      "avg_cloud_cover": 0.29000000000000004,
+      "row_045_scene": "LC09_L2SP_144045_20240114_02_T1",
+      "row_046_scene": "LC09_L2SP_144046_20240114_02_T1",
+      "coverage_note": "Complete Nagpur coverage with both rows from same date"
+    },
+    "nagpur_coverage": {
+      "valid": true,
+      "message": "Complete coverage with both rows from 2024-01-14",
+      "valid_scenes": [
+        {
+          "id": "LC09_L2SP_144045_20240114_02_T1",
+          "path": "144",
+          "row": "045",
+          "cloud_cover": 0.53,
+          "coverage": "Western part of Nagpur region"
+        },
+        {
+          "id": "LC09_L2SP_144046_20240114_02_T1",
+          "path": "144",
+          "row": "046",
+          "cloud_cover": 0.05,
+          "coverage": "Central and eastern Nagpur (primary coverage)"
+        }
+      ]
+    }
+  },
+  "cold_2024": {
+    "period": {
+      "start": "2024-12-01",
+      "end": "2025-01-15",
+      "season": "Cold (Dec-Jan)",
+      "year": 2024
+    },
+    "scene_count": 2,
+    "scenes": [
+      {
+        "index": 1,
+        "scene_id": "LC08_L2SP_144045_20250108_02_T1",
+        "datetime": "2025-01-08 05:08:33",
+        "date": "2025-01-08",
+        "platform": "landsat-8",
+        "cloud_cover": 0.0,
+        "path": "144",
+        "row": "045",
+        "processing_level": "L2",
+        "bands": {
+          "coastal": {
+            "band_number": "B1",
+            "resolution": 30,
+            "use": "Atmospheric correction",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/045/LC08_L2SP_144045_20250108_20250121_02_T1/LC08_L2SP_144045_20250108_20250121_02_T1_SR_B1.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "blue": {
+            "band_number": "B2",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/045/LC08_L2SP_144045_20250108_20250121_02_T1/LC08_L2SP_144045_20250108_20250121_02_T1_SR_B2.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "green": {
+            "band_number": "B3",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/045/LC08_L2SP_144045_20250108_20250121_02_T1/LC08_L2SP_144045_20250108_20250121_02_T1_SR_B3.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "red": {
+            "band_number": "B4",
+            "resolution": 30,
+            "use": "RGB, NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/045/LC08_L2SP_144045_20250108_20250121_02_T1/LC08_L2SP_144045_20250108_20250121_02_T1_SR_B4.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "nir08": {
+            "band_number": "B5",
+            "resolution": 30,
+            "use": "NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/045/LC08_L2SP_144045_20250108_20250121_02_T1/LC08_L2SP_144045_20250108_20250121_02_T1_SR_B5.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir16": {
+            "band_number": "B6",
+            "resolution": 30,
+            "use": "LULC, moisture",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/045/LC08_L2SP_144045_20250108_20250121_02_T1/LC08_L2SP_144045_20250108_20250121_02_T1_SR_B6.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir22": {
+            "band_number": "B7",
+            "resolution": 30,
+            "use": "LULC, geology",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/045/LC08_L2SP_144045_20250108_20250121_02_T1/LC08_L2SP_144045_20250108_20250121_02_T1_SR_B7.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir11": {
+            "band_number": "B10",
+            "resolution": 100,
+            "use": "LST, UHI (Primary)",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/045/LC08_L2SP_144045_20250108_20250121_02_T1/LC08_L2SP_144045_20250108_20250121_02_T1_ST_B10.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir12": {
+            "band_number": "B11",
+            "resolution": 100,
+            "use": "LST, UHI (L8 only)",
+            "url": null,
+            "available": false
+          },
+          "qa_pixel": {
+            "band_number": "QA",
+            "resolution": 30,
+            "use": "Quality mask, cloud detection",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/045/LC08_L2SP_144045_20250108_20250121_02_T1/LC08_L2SP_144045_20250108_20250121_02_T1_QA_PIXEL.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          }
+        }
+      },
+      {
+        "index": 2,
+        "scene_id": "LC08_L2SP_144046_20250108_02_T1",
+        "datetime": "2025-01-08 05:08:57",
+        "date": "2025-01-08",
+        "platform": "landsat-8",
+        "cloud_cover": 0.01,
+        "path": "144",
+        "row": "046",
+        "processing_level": "L2",
+        "bands": {
+          "coastal": {
+            "band_number": "B1",
+            "resolution": 30,
+            "use": "Atmospheric correction",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_SR_B1.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "blue": {
+            "band_number": "B2",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_SR_B2.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "green": {
+            "band_number": "B3",
+            "resolution": 30,
+            "use": "RGB composite",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_SR_B3.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "red": {
+            "band_number": "B4",
+            "resolution": 30,
+            "use": "RGB, NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_SR_B4.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "nir08": {
+            "band_number": "B5",
+            "resolution": 30,
+            "use": "NDVI, LULC",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_SR_B5.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir16": {
+            "band_number": "B6",
+            "resolution": 30,
+            "use": "LULC, moisture",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_SR_B6.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "swir22": {
+            "band_number": "B7",
+            "resolution": 30,
+            "use": "LULC, geology",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_SR_B7.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir11": {
+            "band_number": "B10",
+            "resolution": 100,
+            "use": "LST, UHI (Primary)",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_ST_B10.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          },
+          "lwir12": {
+            "band_number": "B11",
+            "resolution": 100,
+            "use": "LST, UHI (L8 only)",
+            "url": null,
+            "available": false
+          },
+          "qa_pixel": {
+            "band_number": "QA",
+            "resolution": 30,
+            "use": "Quality mask, cloud detection",
+            "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_QA_PIXEL.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+            "available": true
+          }
+        }
+      }
+    ],
+    "best_scene": {
+      "index": 2,
+      "scene_id": "LC08_L2SP_144046_20250108_02_T1",
+      "datetime": "2025-01-08 05:08:57",
+      "date": "2025-01-08",
+      "platform": "landsat-8",
+      "cloud_cover": 0.01,
+      "path": "144",
+      "row": "046",
+      "processing_level": "L2",
+      "bands": {
+        "coastal": {
+          "band_number": "B1",
+          "resolution": 30,
+          "use": "Atmospheric correction",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_SR_B1.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "blue": {
+          "band_number": "B2",
+          "resolution": 30,
+          "use": "RGB composite",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_SR_B2.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "green": {
+          "band_number": "B3",
+          "resolution": 30,
+          "use": "RGB composite",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_SR_B3.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "red": {
+          "band_number": "B4",
+          "resolution": 30,
+          "use": "RGB, NDVI, LULC",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_SR_B4.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "nir08": {
+          "band_number": "B5",
+          "resolution": 30,
+          "use": "NDVI, LULC",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_SR_B5.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "swir16": {
+          "band_number": "B6",
+          "resolution": 30,
+          "use": "LULC, moisture",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_SR_B6.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "swir22": {
+          "band_number": "B7",
+          "resolution": 30,
+          "use": "LULC, geology",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_SR_B7.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "lwir11": {
+          "band_number": "B10",
+          "resolution": 100,
+          "use": "LST, UHI (Primary)",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_ST_B10.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        },
+        "lwir12": {
+          "band_number": "B11",
+          "resolution": 100,
+          "use": "LST, UHI (L8 only)",
+          "url": null,
+          "available": false
+        },
+        "qa_pixel": {
+          "band_number": "QA",
+          "resolution": 30,
+          "use": "Quality mask, cloud detection",
+          "url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2025/144/046/LC08_L2SP_144046_20250108_20250121_02_T1/LC08_L2SP_144046_20250108_20250121_02_T1_QA_PIXEL.TIF?st=2025-11-16T09%3A41%3A49Z&se=2025-11-17T10%3A26%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2025-11-17T05%3A28%3A48Z&ske=2025-11-24T05%3A28%3A48Z&sks=b&skv=2025-07-05&sig=6ZMnOfWUGlWwu5cGw1OmklFdbg%2BFe9g/ESjs%2Bg0gXt0%3D",
+          "available": true
+        }
+      }
+    },
+    "complete_coverage": {
+      "available": true,
+      "date": "2025-01-08",
+      "avg_cloud_cover": 0.005,
+      "row_045_scene": "LC08_L2SP_144045_20250108_02_T1",
+      "row_046_scene": "LC08_L2SP_144046_20250108_02_T1",
+      "coverage_note": "Complete Nagpur coverage with both rows from same date"
+    },
+    "nagpur_coverage": {
+      "valid": true,
+      "message": "Complete coverage with both rows from 2025-01-08",
+      "valid_scenes": [
+        {
+          "id": "LC08_L2SP_144045_20250108_02_T1",
+          "path": "144",
+          "row": "045",
+          "cloud_cover": 0.0,
+          "coverage": "Western part of Nagpur region"
+        },
+        {
+          "id": "LC08_L2SP_144046_20250108_02_T1",
+          "path": "144",
+          "row": "046",
+          "cloud_cover": 0.01,
+          "coverage": "Central and eastern Nagpur (primary coverage)"
+        }
+      ]
+    }
+  }
+}
