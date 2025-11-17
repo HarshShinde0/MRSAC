@@ -1,7 +1,5 @@
-#!/usr/bin/env python3
 """
-Simple and corrected Landsat analysis with basic DN scaling
-Focus on getting reasonable results first
+Landsat analysis with basic DN Scaling for UHI, LST, NDVI.
 """
 
 import os
@@ -41,20 +39,30 @@ class SimpleLandsatAnalysis:
         if len(valid_thermal) == 0:
             return thermal_clean
         
-        # Use percentile-based mapping for stable results
-        min_dn = np.percentile(valid_thermal, 5)   # Coolest areas
-        max_dn = np.percentile(valid_thermal, 95)  # Hottest areas
+        # Map actual thermal DN ranges to realistic temperatures
+        # Based on actual thermal DN ranges: ~7000-65000
         
-        # Map to realistic temperature range
-        temp_min = 15  # Minimum realistic temperature
-        temp_max = 50  # Maximum realistic temperature
+        # More conservative percentile mapping to avoid extreme outliers
+        min_dn = np.percentile(valid_thermal, 1)   # Coolest 1%
+        max_dn = np.percentile(valid_thermal, 99)  # Hottest 1%
         
-        # Linear scaling from DN to temperature
-        normalized = (thermal_clean - min_dn) / (max_dn - min_dn)
-        lst_celsius = temp_min + (normalized * (temp_max - temp_min))
+        # Determine temperature range based on season/thermal characteristics
+        # Conservative mapping to Earth surface temperature ranges
+        if np.mean(valid_thermal) < 35000:  # Cooler thermal signature
+            temp_min, temp_max = 10, 45  # Winter range
+        else:  # Warmer thermal signature
+            temp_min, temp_max = 15, 50  # Summer range
         
-        # Apply final bounds
-        lst_celsius = np.clip(lst_celsius, 10, 60)
+        # Safe division to avoid issues
+        dn_range = max_dn - min_dn
+        if dn_range > 0:
+            normalized = np.clip((thermal_clean - min_dn) / dn_range, 0, 1)
+            lst_celsius = temp_min + (normalized * (temp_max - temp_min))
+        else:
+            lst_celsius = np.full_like(thermal_clean, (temp_min + temp_max) / 2)
+        
+        # Only remove clearly impossible values (not Earth surface temperatures)
+        lst_celsius = np.where((lst_celsius < -50) | (lst_celsius > 80), np.nan, lst_celsius)
         
         return lst_celsius
     
@@ -78,17 +86,18 @@ class SimpleLandsatAnalysis:
         return ndvi
     
     def simple_uhi_calculation(self, lst_data):
-        """Simple UHI calculation"""
+        """Improved UHI calculation with better rural reference"""
         valid_lst = lst_data[~np.isnan(lst_data)]
         
         if len(valid_lst) == 0:
             return np.full_like(lst_data, np.nan)
         
-        # Use 20th percentile as rural reference
-        rural_temp = np.percentile(valid_lst, 20)
+        # Use median as rural reference for more stable UHI calculation
+        rural_temp = np.median(valid_lst)
         
         uhi = lst_data - rural_temp
         
+        # Return real UHI data without any artificial clipping
         return uhi
     
     def create_simple_plot(self, data, title, output_path, cmap='viridis', units=''):
@@ -333,7 +342,7 @@ class SimpleLandsatAnalysis:
         print(f"Results in: {self.output_dir}")
 
 def main():
-    base_dir = r"C:\\Users\\lmfph\\Downloads\\New folder"
+    base_dir = r"Downloads\New folder"
     analyzer = SimpleLandsatAnalysis(base_dir)
     analyzer.run_analysis()
 
