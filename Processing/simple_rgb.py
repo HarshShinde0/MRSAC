@@ -81,7 +81,7 @@ def create_simple_rgb(input_path, output_path, title, satellite):
 
 def main():
     # Paths
-    base_path = r"C:\Users\lmfph\Downloads\New folder"
+    base_path = r"Downloads\New folder"
     clipped_images_path = os.path.join(base_path, "Clipped_Images")
     rgb_output_path = os.path.join(base_path, "Results", "RGB Images")
     
